@@ -102,8 +102,12 @@ export const ButtonList = styled.div `
 
 // 피드 콘텐츠 스타일
 export const FeedContent = styled.div `
-  font-size: 15px; // 폰트 크기
+  font-size: 17px; // 폰트 크기
   margin-bottom: 250px; // 하단 여백
+  
+  
+  overflow-y: scroll; 
+  margin-top: 50px;
 `;
 
 // 하트 스타일

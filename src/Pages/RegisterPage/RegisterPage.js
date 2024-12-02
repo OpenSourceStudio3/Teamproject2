@@ -28,6 +28,7 @@ function RegisterPage() {
     const [myPassword, setMyPassword] = useRecoilState(myInfoPassword);
     const [myIntroduce, setMyIntroduce] = useRecoilState(myInfoIntroduce);
     // 전역 변수 관리
+    console.log("Register");
    
    
     const [agree, setAgree] = useState(false);
